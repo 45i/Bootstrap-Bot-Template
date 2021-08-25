@@ -96,6 +96,32 @@
                 </div>
             </div>
         </section>
+    <script src=
+        "./typed.js-master/lib/typed.min.js">
+    </script>
+      
+    <!-- Add jquery cdn -->
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+  
+    <!-- Add this script for successful 
+        implementation of typed.js  -->
+    <script>
+        if ($(".text-slider").length == 1) {
+              
+            var typed_strings = 
+                $(".text-slider-items").text();
+  
+            var typed = new Typed(".text-slider", {
+                strings: typed_strings.split(", "),
+                typeSpeed: 50,
+                loop: true,
+                backDelay: 900,
+                backSpeed: 30,
+            });
+        }
+    </script>
     </main>
     <footer>
         <div class="text-center d-xl-flex flex-column justify-content-xl-end align-items-xl-center footer-copyright" style="height: 100px;">
@@ -107,6 +133,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    
 </body>
 
 </html>
