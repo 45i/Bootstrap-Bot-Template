@@ -90,3 +90,6 @@ p {
 .col-sm-6.col-lg-4 {
     margin: 20px;
 }
+ .text-slider-items {
+    display: none;
+}
