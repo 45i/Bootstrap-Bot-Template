@@ -39,8 +39,7 @@
   color: var(--alternate-bot-text-color);
   background-color: var(--bot);
   border-color: var(--bot);
-  transform: skewx(10deg);
-  transform: skewY(10deg);
+  
 }
 
 .discord:hover {
@@ -92,4 +91,5 @@ p {
 }
  .text-slider-items {
     display: none;
+   color: #1c1c1c
 }
