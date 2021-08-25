@@ -76,16 +76,11 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-5 feature-box"><i class="la la-thumbs-o-up icon"></i>
-                        <form>  
-                            <label> Select a command to view the <b>arguments</b> and <b>what it does</b> </label>  
-                            <br>
-                            <script>var args =" ";</script>
-                            <script>var func =" ";</script>
-                        <select>  
-                            <option value = "gene"> GeneLab   <script>args="genelab <glds_id:int>"</script><script>func="Access NASA's GeneLab files using their GLDS ID!"</script>
-                        </option>  
-                        <option value = "guess"> GuessTheColor <script>args="guessthecolor"</script><script>func="Play a simple colour guessing game!"</script>
-                        </option>  
+                        
+                        <h2> GeneLab</h2> <h5>Argments</h5>genelab <glds_id:int><br><h5>What it's for</h5>Access NASA's GeneLab files using their GLDS ID!
+                        
+                        <h2> GuessTheColor</h2> <h5>Argments</h5>guessthecolor<br><h5>What it's for</h5>Play a simple colour guessing game!
+                        
                         <option value = "conv"> MoneyConvert <script>args="moneyconvert <from_currency:str> <to_currency:str> <amount:int>"</script><script>func="Convery a specific amount from a currency to another using just their Currency Abbreviations!"</script>
                         </option>  
                         <option value = "translate"> Translate  <script>args="translate <text:str> <to_lang:str>"</script><script>func="Translate a text from one language(Auto-Detected) to another(User-Specified)!"</script>
@@ -95,14 +90,8 @@
                         </option>
                         
                         <option value = "youtube"> Youtube  <script>args="youtube <query:str>"</script><script>func="Search YouTube using a search query!"</script>
-                        </option>
                         
-                        </select>  
-                        <br>
-                        <h4>Command Information</h4>
-                        <h5>Arguments</h5><br><script>args</script><br>
-                        <h5>What it's for</h5><br><script>func</script>
-                        </form>
+                        
                         
                     </div>
                     
