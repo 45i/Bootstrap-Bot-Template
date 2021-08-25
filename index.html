@@ -79,21 +79,21 @@
                         <form>  
                             <label> Select a command to view the <b>arguments</b> and <b>what it does</b> </label>  
                             <br>
-                            <script>var value =" ";</script>
+                            <script>var nm =" ";</script>
                         <select>  
-                        <option value = "gene"> GeneLab   
+                            <option value = "gene"> GeneLab   <script>nm="gene"</script>
                         </option>  
-                        <option value = "guess"> GuessTheColor
+                        <option value = "guess"> GuessTheColor <script>nm="guess"</script>
                         </option>  
-                        <option value = "conv"> MoneyConvert
+                        <option value = "conv"> MoneyConvert <script>nm="conv"</script>
                         </option>  
-                        <option value = "translate"> Translate  
+                        <option value = "translate"> Translate  <script>nm="translate"</script>
                         </option>
-                        </option>  
-                        <option value = "name"> NameGenerator  
+                        
+                        <option value = "name"> NameGenerator  <script>nm="name"</script>
                         </option>
-                        </option>  
-                        <option value = "youtube"> Youtube  
+                        
+                        <option value = "youtube"> Youtube  <script>nm="youtube"</script>
                         </option>
                         
                         </select>  
@@ -102,7 +102,7 @@
                     <div class="col-md-5 feature-box"><i class="icon-rocket icon"></i>
                         <h4>Command Information</h4>
                         <script>
-                        if (value=="gene")
+                        if (nm=="gene")
                         {
                         <p> hello</p>
                         }
