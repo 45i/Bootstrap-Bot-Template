@@ -107,7 +107,7 @@ p {
    color: var(--bot);
   transition: all 0.30s linear;
 }
-.container {
+.cmd {
                 justify-content: center;
                 align-items: center;
                 display: flex;
