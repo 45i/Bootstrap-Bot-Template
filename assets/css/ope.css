@@ -105,17 +105,6 @@ p {
 
 /* scroll bar */
 
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: black;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--main-color);
-}
 
 .footer-dark {
   padding: 50px 0;
