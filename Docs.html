@@ -43,7 +43,7 @@
                 <div class="row row-cols-3 justify-content-center" style="color: var(--secondary-text-color);">
                     <div class="col-auto col-md-6 col-lg-4 text-center pb-5 pt-5 number-item love_counter">
                         <h1 class="love_count" style="font-size: 70px;"><strong>54</strong></h1>
-                        <h4 style="color: var(--main-color);margin-top: -6px;"><span class="text-slider-items">Total, Unique, Epic, Fun, SFW </span> Commands</h4>
+                        <h4 style="color: var(--main-color);margin-top: -6px;"><span class="itms">Total, Unique, Epic, Fun, SFW </span> Commands</h4>
                     
                    </div>
             </div>
@@ -218,6 +218,21 @@
                 $(".text-slider-items").text();
   
             var typed = new Typed(".text-slider", {
+                strings: typed_strings.split(", "),
+                typeSpeed: 75,
+                loop: true,
+                backDelay: 1000,
+                backSpeed: 30,
+            });
+        }
+    </script>
+    <script>
+        if ($(".itms").length == 1) {
+              
+            var typed_strings = 
+                $(".itms").text();
+  
+            var typed = new Typed(".itms", {
                 strings: typed_strings.split(", "),
                 typeSpeed: 75,
                 loop: true,
