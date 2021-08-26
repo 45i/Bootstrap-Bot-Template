@@ -107,3 +107,11 @@ p {
    color: var(--bot);
   transition: all 0.30s linear;
 }
+.container {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                height: 100%;
+                text-align: center;
+            }
+  
