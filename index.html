@@ -93,57 +93,7 @@
                 </div>
             </div>
         </section>
-        <section class="clean-block features">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 style="color: var(--bot);">Features</h2>
-                    <p>Okay okay, you love our bot <b>so</b> much, here's some of it's commands</p>
-                </div>
-                
-                   <div="cmd" align="center">            
-          <!-- adding button and heading to show the digits -->
-          <!--increment() and decrement() functions on button click-->
-            <button onclick="increment()" align="center">+</button>  
-                       <h2> Arguments</h2>
-                       <h4 id="arg"></h4>
-                       <h2> Function</h2>
-                       <h4 id="func"></h4>
-                       <h2> APIs used</h2>
-                       <h4 id="api"></h4>
-            <button onclick="decrement()">-</button>         
-        <script>
-            //initialising a variable name data
-            var data = 0;
-            var l={'GeneLab':{'arg':'genelab <glds_id:int>','func':'Access NASA GeneLab files using just their IDs!','api':'https://genelab-data.ndc.nasa.gov/genelab/data/glds/files/<glds_id>'},'GuessTheColour':{'arg':'guessthecolour','func':'Play a simple colour guessing game!','api':'None'},'MoneyConvert':{'arg':'moneyconvert <from_currency:str> <to_currency:str> <amount_to_convert:int>','func':'Hassle-free conversion of any amount from one currency to another!','api':'None'},'Translate':{'arg':'translate <to_lang:str> <text:str>','func':'Translate any text from one language(Auto-Detected) to another(User-Specified)!','api':'https://translate-api.ml/'},'NameGenerator':{'arg':'namegenerator','func':'Generates a random name','api':'None'},'Youtube':{'arg':'youtube <query:str>','func':'Search YouTube using just the query string, just like you do!','api':'Youtube API'}};
-            if(data==6) {
-                data=0;
-            }else if (data==-1){
-                data=5;
-            };
-            //printing default value of data that is 0 in h2 tag
-            document.getElementById("arg").innerText = l[data]['arg'];
-            document.getElementById("func").innerText = l[data]['func'];
-            document.getElementById("api").innerText = l[data]['api'];
-  
-            //creation of increment function
-            function increment() {
-                data = data + 1;
-                document.getElementById("arg").innerText = l[data]['arg'];
-                document.getElementById("func").innerText = l[data]['func'];
-                document.getElementById("api").innerText = l[data]['api'];
-            }
-            //creation of decrement function
-            function decrement() {
-                data = data - 1;
-                document.getElementById("arg").innerText = l[data]['arg'];
-                document.getElementById("func").innerText = l[data]['func'];
-                document.getElementById("api").innerText = l[data]['api'];
-            }
-        </script>
-                </div>
-                
-            </div>
-        </section>
+        
         <section class="clean-block about-us" style="background: rgb(41,41,41);">
             <div class="container">
                 <div class="block-heading">
@@ -230,7 +180,7 @@
     <footer>
         <div class="text-center d-xl-flex flex-column justify-content-xl-end align-items-xl-center footer-copyright" style="height: 100px;">
             <p>© 2021 Mellow House™</p>
-            <!--Consider leaving this to give credit to me for making this, I worked hard on it and it makes me feel good :D--><p>Thanks to <a class="credit" href="#">itsHoozi</a> for tis wonderful template</p></div>
+            <!--Consider leaving this to give credit to me for making this, I worked hard on it and it makes me feel good :D--><p>Thanks to <a class="credit" href="#">itsHoozi</a> for this wonderful template</p></div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
