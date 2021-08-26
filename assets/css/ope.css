@@ -41,6 +41,19 @@
   border-color: var(--bot);
   
 }
+button {
+  color: var(--bot);
+  border-color: var(--bot);
+  background-color: transparent;
+  transition: all 0.40s linear;
+}
+
+button:hover {
+  color: var(--alternate-bot-text-color);
+  background-color: var(--bot);
+  border-color: var(--bot);
+  
+}
 
 .discord:hover {
   color: #fff;
