@@ -91,5 +91,6 @@ p {
 }
  .text-slider-items {
     display: none;
-   color: #1c1c1c
+   color: var(--bot);
+  transition: all 0.30s linear;
 }
