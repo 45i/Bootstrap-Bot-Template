@@ -107,6 +107,12 @@ p {
    color: var(--bot);
   transition: all 0.30s linear;
 }
+
+ .itms {
+    display: none;
+   color: var(--bot);
+  transition: all 0.30s linear;
+}
 .cmd {
                 justify-content: center;
                 align-items: center;
