@@ -144,7 +144,7 @@ p {
     height:0;
     width:0;
     border:8px solid transparent;
-    
+    border-bottom-color:#ffffff
 }
 #scroll:hover {
     background-color:#1c1c1c;
