@@ -146,6 +146,7 @@ p {
     width:0;
     border:8px solid transparent;
     border-bottom-color:#ffffff
+    transition: all 0.40s linear;
 }
 #scroll:hover {
     background-color:#1c1c1c;
